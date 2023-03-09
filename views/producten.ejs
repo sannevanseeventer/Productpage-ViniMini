@@ -1,0 +1,34 @@
+<%- include('./partials/head.ejs') %>
+
+    <h2 class="section-title">Producten</h2>
+    <a href="#" class="section-all">Startpagina / Producten</a>
+
+    <section class="featured section" id="featured">
+
+        <% producten.forEach(product=> { %>
+            <div class="featured__container bd-grid">
+                <div class="featured__product">
+                    <div class="featured__box">
+                        <!-- <div class="featured__new">
+                            <%= product.categorie.titel %>
+                        </div> -->
+                        <a href="/detail/?detailSlug=<%= product.slug %>">
+
+                            <img src="/img/pinda_3stappen.png" alt="foto pinda 3 stappen" class="featured__img"> </a>
+                    </div>
+
+
+                    <div class="featured__data">
+                        <h3 class="featured__name">
+                            <%= product.titel %>
+                        </h3>
+                        <span class="featured__preci">
+                            € <%= product.prijs %>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <% }) %>
+    </section>
+
+    <%- include('./partials/foot.ejs') %>
