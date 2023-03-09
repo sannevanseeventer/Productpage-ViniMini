@@ -3,26 +3,26 @@
     <h2 class="section-title">Producten</h2>
     <a href="#" class="section-all">Startpagina / Producten</a>
 
-    <section class="featured section" id="featured">
+    <section class="product section" id="products">
 
         <% producten.forEach(product=> { %>
-            <div class="featured__container bd-grid">
-                <div class="featured__product">
-                    <div class="featured__box">
-                        <!-- <div class="featured__new">
+            <div class="product-container bd-grid">
+                <div class="product">
+                    <div class="product-box">
+                        <!-- <div class="product-new">
                             <%= product.categorie.titel %>
                         </div> -->
                         <a href="/detail/?detailSlug=<%= product.slug %>">
 
-                            <img src="/img/pinda_3stappen.png" alt="foto pinda 3 stappen" class="featured__img"> </a>
+                            <img src="/img/pinda_3stappen.png" alt="foto pinda 3 stappen" class="product-img"> </a>
                     </div>
 
 
-                    <div class="featured__data">
-                        <h3 class="featured__name">
+                    <div class="product-data">
+                        <h3 class="product-name">
                             <%= product.titel %>
                         </h3>
-                        <span class="featured__preci">
+                        <span class="product-price">
                             € <%= product.prijs %>
                         </span>
                     </div>

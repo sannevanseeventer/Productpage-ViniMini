@@ -30,7 +30,7 @@ app.get('/producten', (request, response) => {
     })
   })
 
-  // Spints -> uiteindelijk productenpagina 
+  // Detail pagina
 app.get('/detail', (request, response) => {
   let slug = request.query.detailSlug || 'titel'
   let detailUrl = url + '/producten/' + slug
