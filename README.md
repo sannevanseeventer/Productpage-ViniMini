@@ -1,10 +1,7 @@
-# Productpage-ViniMini
-Ontwerp en ontwikkel een server-side website voor een opdrachtgever
-
 <h2>Overzichtspagina Vini Mini </h2>
 <br>
 
-![mu](https://user-images.githubusercontent.com/112857444/224640320-4ee46af4-ae00-4eb3-b677-3c7cf47fe2e7.png)
+![mu](https://user-images.githubusercontent.com/112857444/224640556-5807e02d-1b49-4031-96fa-2e6520f5fe49.png)
 
 
 <h3>📚Inhoudsopgave</h3>
