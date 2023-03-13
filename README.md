@@ -1,7 +1,8 @@
 <h2>Overzichtspagina Vini Mini </h2>
 <br>
 
-![mu](https://user-images.githubusercontent.com/112857444/224640556-5807e02d-1b49-4031-96fa-2e6520f5fe49.png)
+![tp238-pf-s73-05-mockup](https://user-images.githubusercontent.com/112857444/224640778-65f510e0-02e5-494d-a15e-7ca7628850cc.png)
+
 
 
 <h3>📚Inhoudsopgave</h3>
