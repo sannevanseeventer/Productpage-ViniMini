@@ -3,7 +3,9 @@ Ontwerp en ontwikkel een server-side website voor een opdrachtgever
 
 <h2>Overzichtspagina Vini Mini </h2>
 <br>
-FOTO TOEVOEGEN
+
+![mu](https://user-images.githubusercontent.com/112857444/224640320-4ee46af4-ae00-4eb3-b677-3c7cf47fe2e7.png)
+
 
 <h3>📚Inhoudsopgave</h3>
 <ul>
