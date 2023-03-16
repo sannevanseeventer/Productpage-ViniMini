@@ -1,7 +1,7 @@
 /*==================== SHOW MENU ====================*/
-const navMenu = document.getElementById('nav-menu'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close')
+const navMenu = document.getElementById('nav-menu')
+const navToggle = document.getElementById('nav-toggle')
+const navClose = document.getElementById('nav-close')
 
 /*===== MENU SHOW =====*/
 if(navToggle){

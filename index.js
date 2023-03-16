@@ -23,7 +23,8 @@ app.get('/', (request, response) => {
 
 // Overzichtspagina
 app.get('/producten', (request, response) => {
-    let productenUrl = url + '/producten'
+    let orderBy = request.query.orderBy || 'titel' // Voor als je wilt sorteren op naam ipv op squad
+    let productenUrl = url + '/producten' + '?orderBy=' + orderBy + '&direction=ASC'
     
     fetchJson(productenUrl).then((data) => {
       response.render('producten', data)

@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Montserrat';
-    background-color: #fafafa;
+    background-color: white;
 }
 
 :root {
@@ -21,6 +21,10 @@ body {
 
 ul {
     list-style: none;
+}
+
+.plaat {
+    max-width: 20em;
 }
 
 li {
@@ -60,6 +64,7 @@ p {
 .nav-container {
     max-width: 100vw;
     background-color: white;
+    box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
 }
 
 .logo {
@@ -114,9 +119,8 @@ nav {
 }
 
 .nav-close {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
+    display: block;
+    margin-left: 6em;
     font-size: 1.5rem;
     color: var(--darkblue);
     cursor: pointer;
@@ -132,18 +136,18 @@ nav {
     display: relative;
 }
 
+.hero-picture {
+    width: 100vw;
+    margin-bottom: 1em;
+    opacity: 70%;
+}
+
 .section2 {
     background-color: white;
 }
 
-.hero-img {
-    width: 100vw;
-    margin-bottom: 1em;
-}
-
 .text-container {
-    margin-left: 1em;
-    margin-top: 3em;
+    margin: 3em 1em 3em 1em;
 }
 
 .hero-title {
@@ -156,7 +160,7 @@ nav {
 .hero-text {
     text-align: left;
     color: var(--darkblue);
-    font-size: 0.7em;
+    font-size: 1em;
     font-weight: 500;
     margin-bottom: 1.5em;
 }
@@ -166,7 +170,7 @@ button {
     color: var(--green);
     border-radius: 30px;
     background-color: white;
-    padding: 0.7em 1.5em 0.7em 1.5em;
+    padding: 1em 1.5em 1em 1.5em;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -178,56 +182,165 @@ button:hover {
     transition: 0.3s ease-in-out;
 }
 
-/* curve */
-.picture {
-    background-image: url("../img/afb1.png");
-    opacity: 60%;
-    background-size: cover;
-    height: 247px;
-}
 
-.curve {
+/* STAPPEN */
+
+.steps {
     position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+    background-color: white;
+
 }
 
-.curve svg {
+.steps-container {
+    margin: 3em 1em 3em 1em;
+}
+
+.steps-title {
+    color: var(--green);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.steps-text {
+    text-align: left;
+    color: var(--darkblue);
+    font-size: 0.7em;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+.steps-picture {
+    width: 100vw;
+    height: auto;
+    opacity: 70%;
+}
+
+/* OPVOLGKIT */
+
+.kit {
     position: relative;
-    display: block;
-    width: calc(141% + 1.3px);
-    height: 40px;
-    transform: rotateY(180deg);
+
 }
 
-.curve .shape-fill {
-    fill: #FAFAFA;
+.kit-container {
+    margin: 3em 1em 3em 1em;
 }
 
-.curve2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+.kit-title {
+    color: var(--green);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
 }
 
-.curve2 svg {
-    position: absolute;
-    display: block;
-    width: calc(138% + 1.3px);
-    height: 40px;
+.kit-text {
+    text-align: left;
+    color: var(--darkblue);
+    font-size: 0.7em;
+    font-weight: 500;
+    margin-bottom: 1.5em;
 }
 
-.curve2 .shape-fill {
-    fill: #FFFFFF;
+.steps-picture {
+    width: 100vw;
+    height: auto;
+    opacity: 70%;
 }
 
+/* CARDS */
+
+.cards {
+    position: relative;
+}
+
+.card {
+    background-color: var(--bg);
+    box-shadow: 2px 2px 2px rgba(174, 190, 205, .3);
+    border-radius: 20px;
+    margin: 2em 1em 1em 1em;
+    padding: 1.5em;
+    text-align: left;
+}
+
+.card-title {
+    color: var(--green);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    margin-top: 0.8em;
+}
+
+.card-text {
+    text-align: left;
+    color: var(--darkblue);
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+.card-icon {
+    color: var(--green);
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* OVER */
+
+.over {
+    position: relative;
+}
+
+.over-container {
+    margin: 3em 1em 3em 1em;
+}
+
+.over-title {
+    color: var(--green);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.over-text {
+    text-align: left;
+    color: var(--darkblue);
+    font-size: 0.7em;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+.over-picture {
+    width: 100vw;
+    height: auto;
+    opacity: 70%;
+    margin-top: 3em;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--bg);
+    padding: 1em 1em;
+}
+
+.footer-title {
+    color: var(--green);
+    margin-bottom: 0.8em;
+    margin-top: 2em;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--darkblue);
+}
+
+.copyright {
+    color: var(--darkblue);
+    font-weight: 500;
+    font-size: 0.8em;
+    margin-top: 2em;
+}
 
 /* ============ PRODUCTS =========== */
 .product-container {
@@ -314,34 +427,6 @@ button:hover {
 
 }
 
-/* ============ DETAILPAGE =========== */
-.detail-page {
-    padding: 3.5rem 0 2rem;
-}
-
-.detail-container {
-    position: relative;
-
-}
-
-.detail-img {
-    width: 340px;
-    margin-left: 1em;
-}
-
-.detail-title {
-    font-size: 1.5em;
-    color: var(--green);
-    font-weight: 700;
-    line-height: 1.4;
-    margin-left: 1em;
-    margin-bottom: 0.5em;
-}
-
-.detail-price {
-    margin-left: 1em;
-}
-
 
 /* ============ RESPONSIVE =========== */
 
@@ -351,16 +436,16 @@ button:hover {
     }
 
     nav {
-        height: 6rem;
+        height: 7rem;
     }
 
     .logo {
-        width: 5em;
+        width: 6em;
     }
 
     .nav-link {
         color: var(--darkblue);
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         font-weight: 300;
         font-family: 'Montserrat', sans-serif;
     }
@@ -399,39 +484,181 @@ button:hover {
     .section-all {
         margin-bottom: 1rem;
         margin-left: 3rem;
-
     }
 }
 
 @media screen and (min-width: 1024px) {
+
+    /* HERO */
     .hero {
-        margin-top: 0;
-        background-image: url("../img/background4.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100vw;
-        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .hero-picture {
+        width: 100%;
+        height: 100%;
+        opacity: 70%;
+        margin-bottom: 0;
     }
 
     .hero-title {
-        font-size: 2em;
+        font-size: 2.4em;
         line-height: 1.4em;
     }
 
     .hero-text {
         line-height: 1.4em;
-        font-size: 1em;
-    }
-
-    .picture {
-        display: none;
+        font-size: 1.3em;
     }
 
     .text-container {
-        position: absolute;
-        margin-top: 15em;
-        max-width: 31em;
-        margin-left: 10em;
+        max-width: 38em;
+        margin: auto;
+    }
+
+    .hero-button {
+        font-size: 1.2em;
+        padding: 1em 1em 1em 1em;
+    }
+
+    /* STAPPEN */
+
+    .steps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .steps-picture {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 70%;
+        grid-row-start: 1;
+    }
+
+    .steps-title {
+        font-size: 2.4em;
+        line-height: 1.4em;
+        text-align: left;
+    }
+
+    .steps-text {
+        line-height: 1.4em;
+        font-size: 0.9em;
+    }
+
+    .steps-container {
+        max-width: 38em;
+        margin: auto;
+    }
+
+    .steps-button {
+        font-size: 0.8em;
+        padding: 1em 1em 1em 1em;
+    }
+
+    /* OPVOLGKIT */
+
+    .kit {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .kit-container {
+        grid-row-start: 1;
+        max-width: 40em;
+        margin: auto;
+    }
+
+    .kit-title {
+        font-size: 2.4em;
+        line-height: 1.4em;
+        text-align: left;
+    }
+
+    .kit-text {
+        line-height: 1.4em;
+        font-size: 0.9em;
+    }
+
+    .opvolgkit-button {
+        font-size: 0.8em;
+        padding: 1em 1em 1em 1em;
+        margin: 0;
+    }
+
+    /* CARDS */
+
+    .cards-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2em 3em 4em 3em;
+    }
+
+    .card {
+        height: 430px;
+        padding: 2em;
+    }
+
+    .card-title {
+        color: var(--green);
+        font-size: 1.7em;
+        font-weight: 700;
+        margin-bottom: 0.8em;
+        margin-top: 0.8em;
+    }
+
+    .card-text {
+        text-align: left;
+        color: var(--darkblue);
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-bottom: 1.5em;
+    }
+
+    .card-button {
+        font-size: 1.1em;
+        padding: 1em 1em 1em 1em;
+    }
+
+    /* OVER */
+
+    .over {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .over-title {
+        font-size: 2.4em;
+        line-height: 1.4em;
+    }
+
+    .over-text {
+        font-size: 0.9em;
+        line-height: 1.4em;
+    }
+
+    .over-picture {
+        margin-top: -20px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 70%;
+        grid-row-start: 1;
+    }
+
+    .over-container {
+        max-width: 40em;
+        margin: auto;
+    }
+
+    .over-button {
+        font-size: 0.8em;
+        padding: 1em 1em 1em 1em;
     }
 
     .nav-container {
@@ -453,42 +680,45 @@ button:hover {
         color: var(--darkblue);
     }
 
-    .detail-data {
-        width: 50%;
-    }
 
-    .detail-title {
-        display: none;
-    }
-
-    .detail-title2 {
-        color: var(--green);
-        margin-bottom: 1em;
+    .section-title {
         font-size: 2em;
     }
 
-    .description_product {
-        text-align: left;
-        font-size: 1rem;
-        margin-bottom: 1em;
-        font-weight: 500;
-        line-height: 1.4em;
+    .section-all {
+        font-size: 1.1em;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
     }
 
-    .grid-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 2em;
-        margin: 5em 9em 0 9em;
+    .product-name {
+        font-size: 1.2em;
     }
 
-    .detail-img {
-        width: 500px;
+    /* FOOTER */
+    footer {
+        width: 100vw;
+        margin-top: 2em;
     }
 
-    .detail-price {
-        margin-bottom: 1em;
+    .footer-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    .footer-title {
+        font-size: 1.5em;
+    }
+
+    .footer-link {
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+
+    .copyright {
+        font-size: 1em;
+        margin-left: 15em;
     }
 
 

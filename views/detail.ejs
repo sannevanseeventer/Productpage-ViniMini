@@ -5,57 +5,53 @@
 
 
             <a href="#" class="section-all">Startpagina / Producten / Mijn eerste pinda in 3 stappen</a>
-
-            <% producten.forEach(product=> { %>
+            <% detail.forEach(product=> { %>
                 <h2 class="detail-title">
                     <%= product.titel %>
                 </h2>
-                <% }) %>
 
-                    <div class="grid-container">
+                <div class="grid-container">
 
-                        <img src="/img/pinda_3stappen.png" alt="product pinda in 3 stappen" class="detail-img">
-
-
-                        <div class="detail-data">
-                            <h2 class="detail-title2">
-                                Mijn eerste pinda in 3 stappen
-                            </h2>
-
-                            <p class="description_product">
-                                Om op een makkelijke, gezonde en betrouwbare manier voor het eerst pinda te geven aan
-                                jouw
-                                baby
-                                hebben we mijn eerste pinda in 3 stappen ontwikkeld.Het product is:
-
-                                Makkelijk: hoog in eiwit, waardoor je de helft minder hoeft te geven dan bijvoorbeeld
-                                pindakaas
-                                Gezond: bevat geen toegevoegd zout of suiker
-                                Betrouwbaar: vrij van sporen van andere allergenen en afgemeten hoeveelheid afgestemd
-                                naar
-                                wetenschappelijk onderzoek
-                            </p>
-
-                            <div class="detail-price">€ 14,95</div>
+                    <img src="/img/pinda_3stappen.png" alt="product pinda in 3 stappen" class="detail-img">
 
 
+                    <div class="detail-data">
+                        <h2 class="detail-title2">
+                            <%= product.titel %>
+                        </h2>
+
+                        <p class="description_product">
+                            Om op een makkelijke, gezonde en betrouwbare manier voor het eerst pinda te geven aan jouw
+                            baby
+                            hebben we mijn eerste pinda in 3 stappen ontwikkeld.Het product is:
+
+                            Makkelijk: hoog in eiwit, waardoor je de helft minder hoeft te geven dan bijvoorbeeld
+                            pindakaas
+                            Gezond: bevat geen toegevoegd zout of suiker
+                            Betrouwbaar: vrij van sporen van andere allergenen en afgemeten hoeveelheid afgestemd naar
+                            wetenschappelijk onderzoek
+                        </p>
+
+                        <div class="detail-price">€ 14,95</div>
+
+                        <% }) %>
                             <button> In winkelwagen </button>
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
 
 
         </div>
