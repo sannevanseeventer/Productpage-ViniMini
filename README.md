@@ -22,7 +22,7 @@ Omdat ik nog niet bekend ben met Node, Express en JSON is het voor mij een hele 
 Je begint bij de homepage van Vini Mini. Als je dan vervolgens op 'producten' klikt, krijg je een overzichtspagina van de producten die Vini Mini verkoopt.         
 
 <h3 id="#Checklist"> ✅ Checklist</h3>
-Het is mij nog niet gelukt om voor elkaar tre krijgen dat als je op een product klikt, je naar de detailpagina van dat product gaat. Hier ga ik nog mee aan de slag. 
+Het is mij nog niet gelukt om voor elkaar te krijgen dat als je op een product klikt, je naar de detailpagina van dat product gaat. Hier ga ik nog mee aan de slag. 
         
 <h3 id="#Kenmerken"> 📱 Kenmerken</h3>
 Dit project is gemaakt met Node, Express, EJS. 
