@@ -1,5 +1,6 @@
 import express from 'express'
 
+// url vini mini database
 const url = 'https://api.vinimini.fdnd.nl/api/v1'
 
 // Maak een nieuwe express app
@@ -11,7 +12,7 @@ app.set('view engine', 'ejs')
 app.set('views', './views')
 app.use(express.static('public'))
 
-// Maak een route voor de index
+// Maak een route aan voor de index
 app.get('/', (request, response) => {
 
   let homeUrl = url + '/'
@@ -23,15 +24,15 @@ app.get('/', (request, response) => {
 
 // Overzichtspagina
 app.get('/producten', (request, response) => {
-    let orderBy = request.query.orderBy || 'titel' // Voor als je wilt sorteren op naam ipv op squad
-    let productenUrl = url + '/producten' + '?orderBy=' + orderBy + '&direction=ASC'
+    let orderBy = request.query.orderBy || 'titel' // sorteren op titel
+    let productenUrl = url + '/producten' + '?orderBy=' + orderBy + '&direction=ASC' // 'mij-eerste-ei' als eerste tonen ipv 'pinda-presentje'
     
     fetchJson(productenUrl).then((data) => {
       response.render('producten', data)
     })
   })
 
-  // Detail pagina
+  // Detail pagina -> nog niet gelukt om te laten zien
 app.get('/detail', (request, response) => {
   let slug = request.query.detailSlug || 'titel'
   let detailUrl = url + '/producten/' + slug
@@ -41,12 +42,12 @@ app.get('/detail', (request, response) => {
   })
 })
 
-// Over Vini mini
+// linkt de pagina 'over Vini mini' en haalt informatie op
 app.get('/over', (request, response) => {
   response.render('over')
 })
 
-// Contact pagina Vini mini
+// linkt de pagina 'contact' en haalt informatie op
 app.get('/contact', (request, response) => {
   response.render('contact')
 })
