@@ -3,6 +3,8 @@
 
 ![mutest](https://user-images.githubusercontent.com/112857444/225724261-a1bbfe11-4a67-401c-8ad1-dcfd07172c8f.png)
 
+![mutest2](https://user-images.githubusercontent.com/112857444/225724904-e389136c-5113-4155-a40a-9a02ecf97393.png)
+
 
 
 <h3>📚Inhoudsopgave</h3>
