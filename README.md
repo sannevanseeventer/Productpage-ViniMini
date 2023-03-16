@@ -3,11 +3,6 @@
 
 ![mutest](https://user-images.githubusercontent.com/112857444/225724261-a1bbfe11-4a67-401c-8ad1-dcfd07172c8f.png)
 
-![mutest2](https://user-images.githubusercontent.com/112857444/225725555-11d45994-1272-4ef9-ade8-2b370c7c35c5.png)
-
-
-
-
 <h3>📚Inhoudsopgave</h3>
 <ul>
 <li><a href="#Opdracht"> 👨🏼‍💼 Opdracht</a></li> 
