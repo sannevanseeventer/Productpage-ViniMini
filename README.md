@@ -1,7 +1,7 @@
 <h2>Overzichtspagina Vini Mini </h2>
 
-![tp238-pf-s73-05-mockup](https://user-images.githubusercontent.com/112857444/224641680-86c8cff4-2d14-4012-8720-484ccadd346d.png)
 
+![mutest](https://user-images.githubusercontent.com/112857444/225724261-a1bbfe11-4a67-401c-8ad1-dcfd07172c8f.png)
 
 <h3>📚Inhoudsopgave</h3>
 <ul>
@@ -22,10 +22,18 @@ Omdat ik nog niet bekend ben met Node, Express en JSON is het voor mij een hele 
 Je begint bij de homepage van Vini Mini. Als je dan vervolgens op 'producten' klikt, krijg je een overzichtspagina van de producten die Vini Mini verkoopt.         
 
 <h3 id="#Checklist"> ✅ Checklist</h3>
-Het is mij nog niet gelukt om voor elkaar tre krijgen dat als je op een product klikt, je naar de detailpagina van dat product gaat. Hier ga ik nog mee aan de slag. 
-
+Het is mij nog niet gelukt om voor elkaar te krijgen dat als je op een product klikt, je naar de detailpagina van dat product gaat. Hier ga ik nog mee aan de slag. 
+        
 <h3 id="#Kenmerken"> 📱 Kenmerken</h3>
-Dit project is gemaakt met HTML, CSS en JavaScript, Nodejs, Express en JSON. Verder staat hieronder een korte lijst met gebruikte tools.
+Dit project is gemaakt met Node, Express, EJS. 
+<li>Wat is Node:<br>
+Node.js is een software platform waarmee ontwikkelaars JavaScript kunnen gebruiken om applicaties te bouwen die op de computer kunnen draaien, net zoals in een webbrowser. Het biedt veel handige functies en is populair vanwege de snelle en efficiënte manier waarop het met data kan omgaan.</li>
+<br>
+<li> Wat is Express:<br>
+Express is een framework voor Node.js waarmee ontwikkelaars gemakkelijk web-applicaties en API's kunnen bouwen. Het biedt veel handige tools en functies om het proces te versnellen en te vereenvoudigen, en kan worden aangepast aan de behoeften van elk project. Express is erg populair en wordt veel gebruikt in de ontwikkeling van webtoepassingen en server-side applicaties.</li>
+<br>
+<li> Wat is EJS:<br>
+EJS is een sjabloontaal waarmee ontwikkelaars dynamische HTML-pagina's kunnen maken in Node.js-applicaties. Het wordt gebruikt om variabelen, conditionele logica en herbruikbare componenten in HTML-pagina's in te voegen, waardoor het bouwen van webpagina's eenvoudiger en efficiënter wordt.</li>
 
 <h4>Tools</h4>
 <ul>
