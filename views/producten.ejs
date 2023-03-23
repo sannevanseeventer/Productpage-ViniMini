@@ -11,18 +11,19 @@
 
                 <div class="product-container bd-grid">
                     <div class="product">
+                        <!-- deze linkt naar de detailpagina van een product -->
+                        <a href="/product?detailId=<%= product.id %>">
+                        </a>
                         <div class="product-box">
-                            <!-- deze linkt naar de detailpagina van een product -->
-                            <a href="/detail/?detailSlug=<%= product.slug %>">
-                            </a>
                         </div>
                         <!-- dit zorgt ervoor dat je plaatjes uit de database krijgt, ook als er geen plaatje is ingevoerd -->
                         <% if(product.plaatjes.length) { %>
-                            <a href="/detail/?detailSlug=<%= product.slug %>"><img src="<%= product.plaatjes[0].url %>"
+                            <a href="/product?detailId=<%= product.id %>"><img src="<%= product.plaatjes[0].url %>"
                                     alt="plaatje" class="plaat" /></a>
                             <!-- Als er bij een product geen url naar een plaatje is, laat dan deze placeholder image zien-->
                             <% }else{ %>
-                                <img src="/img/placeholder.png" alt="Placeholder pinda" class="plaat" />
+                                <a href="/product?detailId=<%= product.id %>"><img src="/img/placeholder.png"
+                                        alt="Placeholder pinda" class="plaat" /></a>
                                 <% } %>
 
                                     <div class="product-data">

@@ -33,14 +33,16 @@ app.get('/producten', (request, response) => {
   })
 
   // Detail pagina -> nog niet gelukt om te laten zien
-app.get('/detail', (request, response) => {
-  let slug = request.query.detailSlug || 'titel'
-  let detailUrl = url + '/producten/' + slug
+app.get('/product', (request, response) => {
+  let id = request.query.detailId || 'clerps05z09jm0aw3vccjq5un'
+  let detailUrl = url + '/product?id=' + id
+  console.log(detailUrl);
   fetchJson(detailUrl).then((data) => {
     // console.log(data)
     response.render('detail', data)
   })
 })
+
 
 // linkt de pagina 'over Vini mini' en haalt informatie op
 app.get('/over', (request, response) => {
